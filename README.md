@@ -1,2 +1,2 @@
 # myrepo
-My New Repo
+Mein erstes eigenes Github Repository!
