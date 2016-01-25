@@ -143,7 +143,48 @@ class SplayTree:
 def test():
     ###Your code here.
     splayTree = SplayTree()
-    splayTree.insert(auto)
+    splayTree.remove("auto")
+    splayTree.insert("auto")
+    splayTree.insert("banane")
+    splayTree.insert("auto")
+    splayTree.insert("arbeit")
+    splayTree.remove("arbeit")
+    splayTree.remove("auto")
+    splayTree.findMin()
     
+    splayTree2 = SplayTree()
+    splayTree2.insert(2)
+    splayTree2.insert(3)
+    splayTree2.insert(4)
+    splayTree2.remove(3)
     
+    splayTree3 = SplayTree()
+    splayTree3.findMin()
+    
+    splayTree4 = SplayTree()
+    splayTree4.insert(1)
+    splayTree4.insert(2)
+    splayTree4.insert(3)
+    splayTree4.findMin()
+    splayTree4.findMax()
+    splayTree4.isEmpty()
+    
+    splayTree5 = SplayTree()
+    splayTree5.insert(5)
+    splayTree5.find(4)
+    
+    splayTree5 = SplayTree()
+    splayTree5.insert(4)
+    splayTree5.insert(5)
+    splayTree5.find(3)
+    
+    splayTree5 = SplayTree()
+    splayTree5.insert(5)
+    splayTree5.find(6)
+    
+    splayTree5 = SplayTree()
+    splayTree5.insert(4)
+    splayTree5.insert(3)
+    splayTree5.find(5)    
 test()
+
