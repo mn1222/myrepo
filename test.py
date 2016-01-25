@@ -67,7 +67,9 @@ def test():
     # times in order to do this.
     ###Your code here.
     #print(add8(False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False))
-    print(helperFunction(10,15))
+    assert 0==helperFunction(0,0)
+    assert 1==helperFunction(0,1)
+    assert 2==helperFunction(1,1)
 
 # Calls add8 with bit-representations of sum1 and sum2. Result of add8 is returned.
 def helperFunction(sum1,sum2):	
