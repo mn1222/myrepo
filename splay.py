@@ -177,14 +177,19 @@ def test():
     splayTree5.insert(4)
     splayTree5.insert(5)
     splayTree5.find(3)
-    
-    splayTree5 = SplayTree()
-    splayTree5.insert(5)
-    splayTree5.find(6)
-    
+	
     splayTree5 = SplayTree()
     splayTree5.insert(4)
     splayTree5.insert(3)
-    splayTree5.find(5)    
+    splayTree5.find(5)
+    
+    n1 = Node(5)
+    n2 = Node(4)
+    n1.equals(n2)
+	
+    splayTree5 = SplayTree()
+    splayTree5.findMax()
+    splayTree5.find(1)
+    splayTree5.insert(1)
+    splayTree5.find(1)
 test()
-
