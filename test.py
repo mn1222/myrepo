@@ -67,42 +67,46 @@ def test():
     # times in order to do this.
     ###Your code here.
     #print(add8(False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False))
-    helperFunction(10,15)
+    print(helperFunction(10,15))
 
-# Calls add8 with bit-representations of sum1 and sum2.	
+# Calls add8 with bit-representations of sum1 and sum2. Result of add8 is returned.
 def helperFunction(sum1,sum2):	
-	a7=sum1%2
-	sum1=int(sum1/2)
-	a6=sum1%2
-	sum1=int(sum1/2)
-	a5=sum1%2
-	sum1=int(sum1/2)
-	a4=sum1%2
-	sum1=int(sum1/2)
-	a3=sum1%2
-	sum1=int(sum1/2)
-	a2=sum1%2
+	a0=sum1%2
 	sum1=int(sum1/2)
 	a1=sum1%2
 	sum1=int(sum1/2)
-	a0=sum1%2
+	a2=sum1%2
 	sum1=int(sum1/2)
-	b7=sum2%2
-	sum2=int(sum2/2)
-	b6=sum1%2
-	sum2=int(sum2/2)
-	b5=sum2%2
-	sum2=int(sum2/2)
-	b4=sum2%2
-	sum2=int(sum2/2)
-	b3=sum2%2
-	sum2=int(sum2/2)
-	b2=sum2%2
+	a3=sum1%2
+	sum1=int(sum1/2)
+	a4=sum1%2
+	sum1=int(sum1/2)
+	a5=sum1%2
+	sum1=int(sum1/2)
+	a6=sum1%2
+	sum1=int(sum1/2)
+	a7=sum1%2
+	sum1=int(sum1/2)
+	b0=sum2%2
 	sum2=int(sum2/2)
 	b1=sum2%2
 	sum2=int(sum2/2)
-	b0=sum2%2
+	b2=sum2%2
 	sum2=int(sum2/2)
-	print(add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,0))
+	b3=sum2%2
+	sum2=int(sum2/2)
+	b4=sum2%2
+	sum2=int(sum2/2)
+	b5=sum2%2
+	sum2=int(sum2/2)
+	b6=sum2%2
+	sum2=int(sum2/2)
+	b7=sum2%2
+	sum2=int(sum2/2)
+	res = add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,0)
+	#print((a0,a1,a2,a3,a4,a5,a6,a7))
+	#print((b0,b1,b2,b3,b4,b5,b6,b7))
+	#print(res)
+	return int(res[0])+int(res[1])*2+int(res[2])*4+int(res[3])*8+int(res[4])*16+int(res[5])*32+int(res[6])*64+int(res[7])*128
 	
 test()
