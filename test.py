@@ -1,7 +1,7 @@
 # SPECIFICATION:
 #
 # add8 emulates an 8-bit hardware adder.
-# it takes 17 bits, representing two 8-bit
+# it takes 16 bits, representing two 8-bit
 # numbers and a carry bit.
 #
 # TASK:
